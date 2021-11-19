@@ -91,6 +91,7 @@ namespace ConcurrentEchoServerExpanded
                 writer.Flush();
             }
 
+            //cleans up
             socket.Close();
         }
     }
